@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if(authUser){
-            const socket=io("http://localhost:1080",{// establishes a WebSocket connection to the server at localhost:1080 using socket.io.
+            const socket=io("https://mern-chatapp-gshr.onrender.com",{// establishes a WebSocket connection to the server at localhost:1080 using socket.io.
 				query: {
 					userId: authUser._id,
 				},
