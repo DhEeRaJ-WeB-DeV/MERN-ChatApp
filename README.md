@@ -24,7 +24,7 @@ A real-time chat web application built using the MERN stack with **Socket.io** f
 
 - 🔐 **User Authentication** (Signup/Login) with JWT
 - 💬 **Real-time messaging** using Socket.io
-- 👥 **One-to-One** and **Group Chats**
+- 👥 **One-to-One Chats**
 - 📱 **Responsive UI** built with Tailwind CSS
 - 🧠 **Global state** handled using Zustand
 - 🚫 Protected routes for authenticated users
